@@ -14,7 +14,7 @@ body a:hover{
 }
  
  .home{
-    background-image: url(assets/home3.jpg);
+    background-image: URL(./home3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
