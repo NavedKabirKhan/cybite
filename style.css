@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+
+    font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 2px;
+
+}
+body a:hover{
+    text-decoration: underline;
+  
+}
+ 
+ .home{
+    background-image: url(assets/home3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: none; /* Hide the default cursor */ 
+
+ }
+.home .custom-cursor { 
+    position: fixed; 
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    border: 2px solid #fbfbfb; 
+    mix-blend-mode: screen; /* Glowing effect */ 
+    pointer-events: none; /* Allow interaction with underlying elements */ 
+    transform: translate(-50%, -50%); 
+    transition: width 0.2s ease, height 0.2s ease; 
+} 
+header{
+backdrop-filter: blur(1px);
+}
+
+
+.heading .headtext{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5rem; /* 128px */
+    line-height: 1;
+}
+.heading .headtext1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5rem; /* 128px */
+    line-height: 1;
+}
+.heading{
+    color: #fff;
+    text-align: center;
+    margin-top: 24vh;
+}
+
+ .line{
+        border-left: 1px solid white;
+        height: 10vh;
+        margin: 20% 50% 0 50%;
+}
+.gg-mouse {
+    box-sizing: border-box;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 24px;
+    border: 2px solid;
+    border-radius: 10px
+    
+   }
+   
+   .gg-mouse::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 6px;
+    background: currentColor;
+    top: 3px;
+    left: 5px
+   } 
+
+.scard:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+.tiles:hover h1{
+    color: #ffffff;
+}
+.tiles:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    background: #000000e5;
+    color: #ffffff;
+}
